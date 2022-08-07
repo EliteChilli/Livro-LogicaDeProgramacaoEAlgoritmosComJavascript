@@ -1,0 +1,36 @@
+img{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+h1{
+    border-bottom: inset;
+}
+
+div.input{
+    padding-bottom: 10px;
+}
+
+input[type=number], input[type=text]{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+input[type=button]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #88AFFF;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family:sans-serif;
+    padding: 5px;
+}
+
+input[type=button]:hover{
+background-color:#E6726F;
+color: #F0F6E4;
+}
